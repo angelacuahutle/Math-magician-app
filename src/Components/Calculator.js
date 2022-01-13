@@ -13,11 +13,13 @@ class Calculator extends React.Component {
   }
 
   render() {
+    const { next, total } = this.state;
     return (
 
       <div className="calculator card">
-        <div type="text" className="calculator-screen z-depth 1 " placeholder="0" disabled />
-
+        <div type="text" className="calculator-screen z-depth-1 " placeholder="0" disabled>
+          {next ?? total ?? 0}
+        </div>
         <div className="calculator-keys">
 
           <button type="button" onClick={this.onClickHandler} className="operator btn btn-gray border-secondary">+/-</button>
@@ -42,7 +44,7 @@ class Calculator extends React.Component {
 
           <button type="button" onClick={this.onClickHandler} className="btn btn-gray zero border-secondary">0</button>
           <button type="button" onClick={this.onClickHandler} className="decimal function btn btn-gray dot border-secondary">.</button>
-          <button type="button" onClick={this.onClickHandler} className="equal-sign operator btn btn-Orange equal border-secondary">=</button> 
+          <button type="button" onClick={this.onClickHandler} className="equal-sign operator btn btn-Orange equal border-secondary">=</button>
         </div>
       </div>
     );
