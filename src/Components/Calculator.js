@@ -10,7 +10,9 @@ class Calculator extends React.Component {
     return (
 
       <div className="calculator card">
-        <input type="text" className="calculator-screen z-depth-1" placeholder="0" disabled />
+          <div type="text" className="calculator-screen z-depth-1 " placeholder="0" disabled>
+            {next ?? total ?? 0}
+          </div>
 
         <div className="calculator-keys">
 
