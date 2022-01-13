@@ -1,6 +1,8 @@
+/* eslint-disable import/no-named-as-default-member */
 import React from 'react';
-import Calculator from './Components/calculator';
+import Calculator from './Components/Calculator';
 import 'bootstrap/dist/css/bootstrap.css';
+import './App.css';
 
 class App extends React.Component {
   constructor(props) {
