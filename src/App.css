@@ -47,16 +47,17 @@ button {
   grid-area: 5 / 4;
 }
 
+/* stylelint-disable */
 .btn-Orange {
   background-color: #ffa500;
 }
+/* stylelint-enable */
 
 .btn-gray {
   background-color: #f0eeec;
 }
 
 .calculator-keys {
-  display: -ms-grid;
   display: grid;
 }
 
