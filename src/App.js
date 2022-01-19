@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Home/Home';
+import Quote from './Components/Quote/Quote';
 
 class App extends React.Component {
   constructor(props) {
@@ -18,8 +19,9 @@ class App extends React.Component {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/math-magicians/" element={<Home />} />
-          <Route path="/math-magicians/calculator" element={<Calculator />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/calculator" element={<Calculator />} />
+          <Route path="/quote" element={<Quote />} />
         </Routes>
       </BrowserRouter>
     );
