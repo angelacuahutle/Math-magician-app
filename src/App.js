@@ -1,8 +1,10 @@
 /* eslint-disable import/no-named-as-default-member */
 import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Calculator from './Components/Calculator';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
+import Navbar from './Components/Navbar/Navbar';
 
 class App extends React.Component {
   constructor(props) {
@@ -12,9 +14,13 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="./math-magician-app/">Calculator</Route>
+        </Routes>
         <Calculator />
-      </div>
+      </BrowserRouter>
     );
   }
 }

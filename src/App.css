@@ -3,6 +3,12 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Balsamiq Sans', sans-serif;
+  font-weight: 900;
+  color: black;
+}
+
 .calculator {
   border: 1px solid #ccc;
   position: absolute;
