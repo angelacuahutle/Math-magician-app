@@ -11,7 +11,7 @@ const CalculatorHook = () => {
 
   return (
     <>
-      <h3 className="mt-3">Lets Do Some Math !!</h3>
+      <h3 className="mt-3">Lets Use the Calculator!!</h3>
       <div className="calculator card">
 
         <div type="text" className="calculator-screen z-depth-1 " placeholder="0" disabled>
