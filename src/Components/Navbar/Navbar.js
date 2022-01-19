@@ -7,8 +7,8 @@ function Navbar() {
       <span className="title-math">Math Magicians</span>
       <div className="menu-items">
         <Link to="/math-magician-app/Calculator">Calculator</Link>
-        <Link to="/math-magicians/" className="linkCalculator text-decoration-none">Home</Link>
-        <Link to="/math-magicians/Calculator" className="linkCalculator text-decoration-none">Calculator</Link>
+        <Link to="/math-magicians/" className="links text-decoration-none">Home</Link>
+        <Link to="/math-magicians/Calculator" className="links text-decoration-none">Calculator</Link>
       </div>
     </nav>
   );
