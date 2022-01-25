@@ -31,7 +31,8 @@ $ npm start
 
 ## Live Demo
 
-[Live Demo Link Heroku](https://warm-ravine-02523.herokuapp.com/)
+[Live Demo Link Heroku](https://git.heroku.com/tranquil-bastion-94461.git)
+(https://upbeat-wiles-afb440.netlify.app/)
 
 ## Authors
 
